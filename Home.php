@@ -1,4 +1,4 @@
-<main style="width:1000px;margin:1rem auto; background-color:wheat;padding:20px;border-radius:6px;border:none">
+<main style="width:1000px;margin:5rem auto;box-shadow:0 0 15px rgba(0,0,0,0.25);padding:20px;border-radius:6px;border:none;">
 <?php
 class PatientApp {
     // Properties
@@ -25,12 +25,12 @@ class PatientApp {
     public function checkAppointment(){
         if ($this->Status) {
             $this->Status = false;
-            print("Appointment has been insert successfully.");
+            echo "<p style=\"color:green;text-align:center\">Appointment has been insert successfully.</p>";
         } else {
-            print("Appointment is exist.");
+            echo "<p style=\"color:red;text-align:center\">Appointment is exist.</p>";
         }
     }
-    public function getData(){
+    public function PrintAppointment(){
         $status = $this->Status ? 'Not Meeted' : 'Meeted';
         return "Appointment ID: {$this->id}, Room: {$this->room}, 
         Patient: {$this->patientName}, Doctor: {$this->doctorName}, 
@@ -45,15 +45,15 @@ $appointment2 = new PatientApp(2, "102", "John Wick", "Dr. Dara", "2024-04-30", 
 $appointment3 = new PatientApp(3, "103", "Da Ra", "Dr. Jonny Sin", "2024-03-10", "Regular Checkup",true);
 
 // Print
-echo $appointment1->getData();
+echo $appointment1->PrintAppointment();
 echo "<br>";
 echo $appointment1->checkAppointment();
-echo "<br>";
-echo $appointment2->getData();
+echo "<br><hr>";
+echo $appointment2->PrintAppointment();
 echo "<br>";
 echo $appointment2->checkAppointment();
-echo "<br>";
-echo $appointment3->getData();
+echo "<br><hr>";
+echo $appointment3->PrintAppointment();
 echo "<br>";
 echo $appointment3->checkAppointment();
 ?>
