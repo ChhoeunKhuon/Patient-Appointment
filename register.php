@@ -3,33 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
     <link rel="stylesheet" href="css/form.css">
     <script src="https://kit.fontawesome.com/5ce14b4205.js" crossorigin="anonymous"></script>
+    <title>Register Form</title>
 </head>
 <body>
-    <header>
+<header>
         <?php 
         include('head.php');
         ?>
     </header>
     <main>
-    <form action="Login-Process.php" method="post">
+    <form action="includefiles/register-process.php" method="post" class="form">
         <table>
             <thead>
-        <h2>Login</h2>
+        <h2>Register</h2>
         </thead>
         <tbody>
             <tr>
+                <td><label for="fname">First Name :</label></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name :</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+            <tr>
                 <td><label for="email">Email :</label></td>
-                <td><input type="text" id="email" name="email"></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number :</label></td>
+                <td><input type="number" id="phone" name="phone"></td>
             </tr>
             <tr>
                 <td><label for="password">Password :</label></td>
-                <td><input type="text" id="password" name="password"></td>
+                <td><input type="password" id="password" name="password"></td>
             </tr>
             <tr>
-                <td colspan="2"><a class="btnforgot" href="register.php">Forgot Password?</a></td>
+                <td><label for="verify-password">Verify Password :</label></td>
+                <td><input type="password" id="verify-password" name="vpassword"></td>
             </tr>
             <tr>
                 <td colspan="2">

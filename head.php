@@ -15,7 +15,7 @@
                 </ul>
             </section>
             <section>
-            <button><a class="fa-solid fa-user" href="login.php"></a></button></section>
+            <button><a class="fa-solid fa-user" href="user-details.php"></a></button></section>
         </nav>
 </body>
 </html>
