@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Jersey+15+Charted&family=Protest+Guerrilla&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+h1{
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    font-size: 30px;
+}
+button{
+    margin-right: 10px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    font-size: 20px;
+    padding: -10px;
+    height: 40px;
+    transform: translateY(8px);
+    transition: all 0.2s;
+}
+button:hover{
+    background-color: rgb(209, 209, 209);
+}
+ul{
+    transform: translateY(20px);
+}
+li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* table */
+h2{
+    font-family: "Jersey 15 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+form{
+    width: 300px;
+    margin: 3rem auto;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+    border-radius: 6px;
+}
+td{
+    padding: 5px;
+}
+tr:last-child{
+    text-align: center;   
+}
+#reset , #submit{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+#reset:hover , #submit:hover{
+    color: rgb(238, 237, 237);
+}
+#reset{
+    padding: 5px;
+    background-color: orange;
+}
+#submit{
+    background-color: green;
+}
+label{
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+}
+/* login form */
+p{
+    color: blue;
+}
+.btnforgot{
+    text-decoration: none;
+}
+.btnforgot:hover{
+    color: rgb(5, 5, 103);
+}
