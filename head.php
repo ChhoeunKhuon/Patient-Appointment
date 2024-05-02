@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+    <title></title>
 </head>
 <body>
 <nav>
@@ -15,7 +16,8 @@
                 </ul>
             </section>
             <section>
-            <button><a class="fa-solid fa-user" href="user-details.php"></a></button></section>
+            <button><a class="fa-solid fa-user" href="user-details.php"></a></button>
+            <a href="images.php" id="pen" class="fa-solid fa-pen-to-square"></a></section>
         </nav>
 </body>
 </html>

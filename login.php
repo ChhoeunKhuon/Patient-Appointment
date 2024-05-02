@@ -22,14 +22,14 @@
         <tbody>
             <tr>
                 <td><label for="email">Email :</label></td>
-                <td><input type="text" id="email" name="email"></td>
+                <td><input type="text" id="email" name="email" required></td>
             </tr>
             <tr>
                 <td><label for="password">Password :</label></td>
-                <td><input type="text" id="password" name="password"></td>
+                <td><input type="text" id="password" name="password" required></td>
             </tr>
             <tr>
-                <td colspan="2"><a class="btnforgot" href="register.php">Forgot Password?</a></td>
+                <td colspan="2"><a class="btnforgot" href="register.php" required>Forgot Password?</a></td>
             </tr>
             <tr>
                 <td colspan="2">

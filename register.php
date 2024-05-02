@@ -22,27 +22,27 @@
         <tbody>
             <tr>
                 <td><label for="fname">First Name :</label></td>
-                <td><input type="text" id="fname" name="fname"></td>
+                <td><input type="text" id="fname" name="fname" required></td>
             </tr>
             <tr>
                 <td><label for="lname">Last Name :</label></td>
-                <td><input type="text" id="lname" name="lname"></td>
+                <td><input type="text" id="lname" name="lname" required></td>
             </tr>
             <tr>
                 <td><label for="email">Email :</label></td>
-                <td><input type="email" id="email" name="email"></td>
+                <td><input type="email" id="email" name="email" required></td>
             </tr>
             <tr>
                 <td><label for="phone">Phone Number :</label></td>
-                <td><input type="number" id="phone" name="phone"></td>
+                <td><input type="number" id="phone" name="phone" required></td>
             </tr>
             <tr>
                 <td><label for="password">Password :</label></td>
-                <td><input type="password" id="password" name="password"></td>
+                <td><input type="password" id="password" name="password" required></td>
             </tr>
             <tr>
                 <td><label for="verify-password">Verify Password :</label></td>
-                <td><input type="password" id="verify-password" name="vpassword"></td>
+                <td><input type="password" id="verify-password" name="vpassword" required></td>
             </tr>
             <tr>
                 <td colspan="2">

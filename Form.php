@@ -22,31 +22,31 @@
             </thead>
         <tr>
         <td><label for="id">ID :</label></td>
-        <td><input type="number" id="id" name="id"></td>
+        <td><input type="number" id="id" name="id" required></td>
         </tr>
         <tr>
             <td><label for="room">Room :</label></td>
-            <td><input type="text" id="room" name="room"></td>
+            <td><input type="text" id="room" name="room" required></td>
         </tr>
         <tr>
             <td><label for="patientid">Patient ID :</label></td>
-            <td><input type="int" id="patientid" name="patientId"><br></td>
+            <td><input type="int" id="patientid" name="patientId" required><br></td>
         </tr>
         <tr>
             <td><label for="doctorid">Doctor ID :</label></td>
-            <td><input type="text" id="doctorid" name="doctorId"><br></td>
+            <td><input type="text" id="doctorid" name="doctorId" required><br></td>
         </tr>
         <tr>
             <td><label for="datetime">DateTime :</label></td>
-            <td><input type="date" id="datetime" name="date"><br></td>
+            <td><input type="date" id="datetime" name="date" required><br></td>
         </tr>
         <tr>
             <td><label for="reason">Reason :</label></td>
-            <td><input type="text" id="reason" name="reason"></td>
+            <td><input type="text" id="reason" name="reason" required></td>
         </tr>
         <tr>
             <td colspan="2"><input type="reset" Values="Reset" id="reset">
-            <input type="submit" Values="Submit" id="submit"></td>
+            <input type="submit" Values="Submit" id="submit" required></td>
         </tr>
         </tbody>
         </table>
